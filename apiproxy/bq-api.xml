@@ -1,0 +1,19 @@
+<APIProxy revision="7" name="bq-api">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1678813738507</CreatedAt>
+    <LastModifiedAt>1678813738507</LastModifiedAt>
+    <BasePaths>/bq-api</BasePaths>
+    <Policies>
+        <Policy>ConvertResponse</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://ConvertResponse.js</Resource>
+    </Resources>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
